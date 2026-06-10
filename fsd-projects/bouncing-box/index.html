@@ -10,6 +10,7 @@
         height: 70px;
         color: lightblue;
         background-color: teal;
+        /* background-image: url("dvd_playe"); */
         font-size: 300%;
         font-family: papyrus;
         text-align: center;
@@ -23,6 +24,10 @@
 
       .board {
         height: 100vh;
+        background-image: url("dvd_logo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;
       }
     </style>
     <!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -84,6 +89,7 @@
          * If the box drifts off the screen, turn it around!
          */
         function update() {
+          console.log("gobbldygook")
           moveBoxTo(positionX); 
           positionX += speed;
           if (positionX > boardWidth) {
