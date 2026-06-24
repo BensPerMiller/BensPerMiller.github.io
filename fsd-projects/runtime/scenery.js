@@ -14,11 +14,49 @@ const scenery = {
   building: {
     imageUrl: "images/backgrounds/building.png",
     loopWidth: 1400,
-    instances: [{ x: 400, width: 100, height: 300, speedX: -2 }, { x: 800, width: 100, height: 150, speedX: -2}],
+    instances: [
+      { x: 400, width: 100, height: 300, speedX: -2.2 },
+      { x: 800, width: 100, height: 150, speedX: -2.1 },
+    ],
   },
   lamp: {
     imageUrl: "images/backgrounds/lamp.png",
     loopWidth: 1400,
-    instances: [{ x: 700, width: 65, height: 165, speedX: 0 }, { x: 100, width: 50, height: 150, speedX: 0 }, { x: 300, width: 55, height: 155, speedX: 0}, { x: 500, width: 60, height: 160, speedX: 0}, { x: 900, width: 70, height: 170, speedX: 0}, { x: 1100, width: 75, height: 175, speedX: 0}, { x: 1300, width: 80, height: 180, speedX: 0}],
+    instances: [
+      { x: 150, width: 70, height: 170, speedX: -3 },
+      
+      { x: 150, width: 60, height: 160, speedX: -4 },
+      { x: 350, width: 60, height: 160, speedX: -4 },
+      { x: 550, width: 60, height: 160, speedX: -4 },
+      { x: 750, width: 60, height: 160, speedX: -4 },
+      { x: 950, width: 60, height: 160, speedX: -4 },
+      { x: 1150, width: 60, height: 160, speedX: -4 },
+      { x: 1350, width: 60, height: 160, speedX: -4 },
+      { x: 1550, width: 60, height: 160, speedX: -4 },
+      { x: 1750, width: 60, height: 160, speedX: -4 },
+      { x: 1950, width: 60, height: 160, speedX: -4 },
+      { x: 2150, width: 60, height: 160, speedX: -4 },
+      { x: 2350, width: 60, height: 160, speedX: -4 },
+      { x: 2550, width: 60, height: 160, speedX: -4 },
+      { x: 2750, width: 60, height: 160, speedX: -4 },
+      
+      
+
+      { x: 1300, width: 80, height: 180, speedX: -5 },
+      { x: 100, width: 80, height: 180, speedX: -5 },
+      { x: 300, width: 80, height: 180, speedX: -5 },
+      { x: 500, width: 80, height: 180, speedX: -5 },
+      { x: 700, width: 80, height: 180, speedX: -5 },
+      { x: 900, width: 80, height: 180, speedX: -5 },
+      { x: 1100, width: 80, height: 180, speedX: -5 },
+      { x: 1500, width: 80, height: 180, speedX: -5 },
+      { x: 1700, width: 80, height: 180, speedX: -5 },
+      { x: 1900, width: 80, height: 180, speedX: -5 },
+      { x: 2100, width: 80, height: 180, speedX: -5 },
+      { x: 2300, width: 80, height: 180, speedX: -5 },
+      { x: 2500, width: 80, height: 180, speedX: -5 },
+      { x: 2700, width: 80, height: 180, speedX: -5 },
+      
+    ],
   },
 };
