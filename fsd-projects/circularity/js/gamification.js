@@ -624,6 +624,7 @@ function updatePlayer2() {
           player1Score +
           " | Size: " +
           Math.floor(player1.radius);
+          
 
         var multiplayerScore = document.getElementById("multiplayerScore");
         if (multiplayerScore) {
@@ -641,6 +642,9 @@ function updatePlayer2() {
         // Single player mode
         scoreElement.textContent =
           "Score: " + player1Score + " | Size: " + Math.floor(player1.radius);
+          if (player1Score >= 1000000000) {
+            alert("You need to take a shower")
+          }
       }
     }
   }
