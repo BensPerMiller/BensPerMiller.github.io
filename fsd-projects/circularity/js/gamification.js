@@ -643,7 +643,7 @@ function updatePlayer2() {
         scoreElement.textContent =
           "Score: " + player1Score + " | Size: " + Math.floor(player1.radius);
           if (player1Score >= 1000000000) {
-            alert("You need to take a shower")
+            alert("Congartulations! You've reached one billion points! You need to take a shower")
           }
       }
     }

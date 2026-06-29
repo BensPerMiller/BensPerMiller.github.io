@@ -19,10 +19,31 @@ function moveScenery() {
 
 function generateLevel() {
   // TODO 3: Generate the current level's game objects
+  for (var i = 0; i < currentLevel.gameObjects.length; i++) {
+    var currentObject = currentLevel.gameObjects[i]
+    create(currentObject)
+    console.log(currentObject.type);
+    console.log(currentObject.kind);
+  }
 }
 
 function create(obj) {
   // TODO 4: Create a game object based on its type and kind
+  if (obj.type = "obstacle") {
+    makeObstacle()
+  }
+  else if (obj.type = "enemy") {
+    makeEnemy()
+  }
+  else if (obj.type = "powerup") {
+    makePowerup()
+  }
+  else if (obj.type = "goal") {
+    makeGoal()
+  }
+  else if (obj.type = "platform") {
+    makePlatform()
+  }
 }
 
 function filterObjects(type) {

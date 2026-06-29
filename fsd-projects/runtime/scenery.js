@@ -15,15 +15,45 @@ const scenery = {
     imageUrl: "images/backgrounds/building.png",
     loopWidth: 1400,
     instances: [
+      { x: 700, width: 100, height: 350, speedX: -2.05},
       { x: 400, width: 100, height: 300, speedX: -2.2 },
       { x: 800, width: 100, height: 150, speedX: -2.1 },
+      { x: 200, width: 115, height: 200, speedX: -2.3},
+      { x: 500, width: 100, height: 215, speedX: -2.4},
+      { x: 1000, width: 120, height: 175, speedX: -2.3},
+      { x: 600, width: 115, height: 215, speedX: -2.2},
+      { x: 1300, width: 100, height: 314, speedX: -2.3},
+      { x: 1200, width: 200, height: 285, speedX: -2.4},
+      { x: 1400, width: 135, height: 275, speedX: -2.25},
+      { x: 1100, width: 100, height: 295, speedX: -2.35},
+      { x: 900, width: 90, height: 280, speedX: -2.27},
+      { x: 100, width: 75, height: 165, speedX: -2.3},
+      { x: 300, width: 110, height: 311, speedX: -2.265},
+      { x: 450, width: 100, height: 200, speedX: -2.1},
+      { x: 650, width: 120, height: 300, speedX: -2.2},
+      
+      
     ],
   },
   lamp: {
     imageUrl: "images/backgrounds/lamp.png",
     loopWidth: 1400,
     instances: [
-      { x: 150, width: 70, height: 170, speedX: -3 },
+      { x: 175, width: 50, height: 150, speedX: -3 },
+      { x: 375, width: 50, height: 150, speedX: -3 },
+      { x: 575, width: 50, height: 150, speedX: -3 },
+      { x: 775, width: 50, height: 150, speedX: -3 },
+      { x: 975, width: 50, height: 150, speedX: -3 },
+      { x: 1175, width: 50, height: 150, speedX: -3 },
+      { x: 1375, width: 50, height: 150, speedX: -3 },
+      { x: 1575, width: 50, height: 150, speedX: -3 },
+      { x: 1775, width: 50, height: 150, speedX: -3 },
+      { x: 1975, width: 50, height: 150, speedX: -3 },
+      { x: 2175, width: 50, height: 150, speedX: -3 },
+      { x: 2375, width: 50, height: 150, speedX: -3 },
+      { x: 2575, width: 50, height: 150, speedX: -3 },
+      { x: 2775, width: 50, height: 150, speedX: -3 },
+      
       
       { x: 150, width: 60, height: 160, speedX: -4 },
       { x: 350, width: 60, height: 160, speedX: -4 },
@@ -56,6 +86,8 @@ const scenery = {
       { x: 2300, width: 80, height: 180, speedX: -5 },
       { x: 2500, width: 80, height: 180, speedX: -5 },
       { x: 2700, width: 80, height: 180, speedX: -5 },
+
+      { x: 100000, width: 1000, height: 2000, speedX: -2.5}
       
     ],
   },
